@@ -19,7 +19,7 @@ spec:
           type: RuntimeDefault
       containers:
       - name: nginx
-        image: ubuntu:latest
+        image: techiescamp/nginx-non-root-01:1.0.0
         securityContext:
           allowPrivilegeEscalation: false
           readOnlyRootFilesystem: true
